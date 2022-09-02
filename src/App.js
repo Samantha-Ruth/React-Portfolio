@@ -4,6 +4,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -27,12 +28,11 @@ function App() {
       <Nav 
         categories={categories}
         setCurrentCategory={setCurrentCategory}
-        currentCAtegory={currentCategory}
+        currentCategory={currentCategory}
         contactSelected = {contactSelected}
         setContactSelected = {setContactSelected}
         ></Nav>
       <main>
-        {/* <Portfolio /> */}
         {!contactSelected  ? (
           <>
           <Portfolio currentCategory={currentCategory}/>
@@ -42,6 +42,9 @@ function App() {
             <ContactForm/>
           )}
       </main>
+      <footer>
+          < Footer />
+      </footer>
 
     </div>
   );
