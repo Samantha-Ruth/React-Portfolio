@@ -3,10 +3,10 @@ import { capitalizeFirstLetter } from "../../assets/utils/helpers";
 
 function Nav(props) {
 
-    const[categories] = useState([
+    const [categories] = useState([
         {name: 'SQL', description: 'Project created with SQL database.'},
         {name: 'Express', description: 'Backend manipulated using Express.'},
-    ])
+    ]);
 
     const[currentCategory, setCurrentCategory] = useState(categories[0]);
     

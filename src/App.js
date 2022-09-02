@@ -32,6 +32,7 @@ function App() {
         setContactSelected = {setContactSelected}
         ></Nav>
       <main>
+        {/* <Portfolio /> */}
         {!contactSelected  ? (
           <>
           <Portfolio currentCategory={currentCategory}/>
