@@ -24,7 +24,7 @@ function Nav(props) {
   //   };
 
   return (
-    <header className="flex-row py-2">
+    <header className="flex-row mx-auto">
       <h2 className="mx-2">
         <a data-testid="link" href="/">
           <span role="img">Samantha Haberman</span>
@@ -66,8 +66,7 @@ function Nav(props) {
           <li className="mx-2">
             <a
               data-testid="link"
-              href="https://drive.google.com/file/d/1Jv49DPxcDWK2oMKFm6BENhREwt5niStC/view"
-            >
+              href="https://drive.google.com/file/d/1oKAYi-OOp9uZWxz5RP-Ru9P3EGcvJJP_/view?usp=sharing">
               <span>Resume</span>
             </a>
           </li>

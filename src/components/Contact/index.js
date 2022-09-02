@@ -61,6 +61,13 @@ function ContactForm () {
                 )}
                 <button type='submit'>Submit</button>
             </form>
+            <div>
+                Email: sam.haberman@gmail.com
+                </div>
+                <div>
+                Phone: (555) 123-4567
+                </div>
+           
         </section>
     )
 }
