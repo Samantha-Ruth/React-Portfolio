@@ -1,6 +1,6 @@
 import React from "react";
 // import coverImage from "../../assets/cover/brick-background.jpg";
-import profileImage from "../../assets/cover/profile_image.jpg";
+import profileImage from "../../assets/cover/profile_image2.JPG";
 
 const About = () => {
   return (
