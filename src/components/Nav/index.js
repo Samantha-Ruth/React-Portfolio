@@ -11,18 +11,6 @@ function Nav(props) {
 
   const { contactSelected, setContactSelected } = props;
 
-  //     const { categories = [],
-  //             setCurrentCategory,
-  //             currentCategory,
-  //             contactSelected,
-  //             setContactSelected
-  //         } = props;
-
-  //   const handleClick = (item) => {
-  //     console.log(item);
-  //     return item;
-  //   };
-
   return (
     <header className="flex-row mx-auto">
       <h2 className="mx-2">
