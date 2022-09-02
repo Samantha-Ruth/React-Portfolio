@@ -1,12 +1,8 @@
-import React, { useState } from "react";
-import { capitalizeFirstLetter } from "../../assets/utils/helpers";
+import React from "react";
 
 function Nav(props) {
-  const [categories] = useState([
-    { name: "Portfolio", description: "Project created with SQL database." },
-  ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const { portfolioSelected, setPortfolioSelected } = props;
 
   const { contactSelected, setContactSelected } = props;
 
@@ -28,25 +24,13 @@ function Nav(props) {
               About Me
             </a>
           </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${
-                currentCategory.name === category.name &&
-                !contactSelected &&
-                "navActive"
-              }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
+
+          {/* PORTFOLIO STARTS HERE */}
+          <li className={`mx-2 ${portfolioSelected && "navActive"}`}>
+            <span onClick={() => setPortfolioSelected(true)}>Portfolio</span>
+          </li>
+        
+          {/* CONTACT STARTS HERE */}
           <li className={`mx-2 ${contactSelected && "navActive"}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
