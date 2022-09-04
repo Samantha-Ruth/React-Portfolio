@@ -1,12 +1,6 @@
 import React from "react";
 
 function Nav(props) {
-<<<<<<< HEAD
-  const [categories] = useState([
-    { name: "Profile", description: "Backend manipulated using Express." },
-  ]);
-=======
->>>>>>> feature/portfolio
 
   const { portfolioSelected, setPortfolioSelected } = props;
 
