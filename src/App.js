@@ -1,23 +1,51 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import About from './components/About';
+import Nav from './components/Nav';
+import Portfolio from './components/Portfolio';
+import ContactForm from './components/Contact';
+import Footer from './components/Footer';
+
 
 function App() {
+  const [categories] = useState([
+    {
+      name: 'SQL',
+      description: "Used SQL to create and manipulate database."
+    },
+    {
+      name: 'Express',
+      description: "Used Express to intitiate server."
+    }
+  ]);
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
+  const [contactSelected, setContactSelected] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+      <Nav 
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+        contactSelected = {contactSelected}
+        setContactSelected = {setContactSelected}
+        ></Nav>
+      <main>
+        {!contactSelected  ? (
+          <>
+          <Portfolio />
+          <About/>
+          </>
+          ) : (
+            <ContactForm/>
+          )}
+      </main>
+      <footer>
+          < Footer />
+      </footer>
+
     </div>
   );
 }
