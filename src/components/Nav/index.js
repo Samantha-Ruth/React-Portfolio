@@ -2,9 +2,10 @@ import React from "react";
 
 function Nav(props) {
 
-  const { portfolioSelected, setPortfolioSelected } = props;
-
-  const { contactSelected, setContactSelected } = props;
+  const { portfolioSelected, 
+        setPortfolioSelected,
+        contactSelected, 
+        setContactSelected } = props;
 
   return (
     <header className="flex-row mx-auto">
@@ -19,7 +20,7 @@ function Nav(props) {
             <a
               data-testid="about"
               href="#about"
-              onClick={() => setContactSelected(false)}
+              onClick={() => {setContactSelected(false); setPortfolioSelected(false)}}git 
             >
               About Me
             </a>
@@ -27,12 +28,12 @@ function Nav(props) {
 
           {/* PORTFOLIO STARTS HERE */}
           <li className={`mx-2 ${portfolioSelected && "navActive"}`}>
-            <span onClick={() => setPortfolioSelected(true)}>Portfolio</span>
+            <span onClick={() => {setContactSelected(false); setPortfolioSelected(true)}}>Portfolio</span>
           </li>
         
           {/* CONTACT STARTS HERE */}
           <li className={`mx-2 ${contactSelected && "navActive"}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+            <span onClick={() => {setContactSelected(true); setPortfolioSelected(false)}}>Contact</span>
           </li>
           <li className="mx-2">
             <a
