@@ -11,12 +11,6 @@ const About = () => {
         </div>
       </section>
       <section>
-        <h1
-          id="about-me"
-          className="title is=size-1 mt-6 mb-5 has-text-centered"
-        >
-          About Me
-        </h1>
         <div className="flex-row">
           <div className="column is-3 is-8-mobile is-offset-2-mobile">
             <img

@@ -24,6 +24,7 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
 
   return (
+    <>
     <div> 
       <Nav 
         categories={categories}
@@ -32,21 +33,21 @@ function App() {
         contactSelected = {contactSelected}
         setContactSelected = {setContactSelected}
         ></Nav>
-      <main>
+    </div>
+    <main>
         {!contactSelected  ? (
           <>
           <Portfolio />
-          <About/>
+          {/* <About/> */}
           </>
           ) : (
             <ContactForm/>
           )}
-      </main>
+    </main>
       <footer>
-          < Footer />
+          {/* < Footer /> */}
       </footer>
-
-    </div>
+      </>
   );
 }
 
