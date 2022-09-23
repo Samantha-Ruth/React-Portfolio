@@ -37,8 +37,8 @@ function App() {
     <main>
         {!contactSelected  ? (
           <>
-          <Portfolio />
-          {/* <About/> */}
+          {/* <Portfolio /> */}
+          <About/>
           </>
           ) : (
             <ContactForm/>
