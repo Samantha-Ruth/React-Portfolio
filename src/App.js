@@ -5,21 +5,11 @@ import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-  const [categories] = useState([
-    {
-      name: 'SQL',
-      description: "Used SQL to create and manipulate database."
-    },
-    {
-      name: 'Express',
-      description: "Used Express to intitiate server."
-    }
-  ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
 
   const [contactSelected, setContactSelected] = useState(false);
 
@@ -27,15 +17,14 @@ function App() {
     <>
     <div> 
       <Nav 
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
+        portfolioSelected = {portfolioSelected}
+        setPortfolioSelected = {setPortfolioSelected}
         contactSelected = {contactSelected}
         setContactSelected = {setContactSelected}
         ></Nav>
     </div>
     <main>
-        {!contactSelected  ? (
+        {!contactSelected  && !portfolioSelected ? (
           <>
           {/* <Portfolio /> */}
           <About/>
@@ -52,3 +41,4 @@ function App() {
 }
 
 export default App;
+
