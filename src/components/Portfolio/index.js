@@ -1,13 +1,10 @@
 import React from "react";
 import { Grid, Container, Box, Button, Link } from "@mui/material";
+import Recipe from "../../assets/projects/Recipe.png";
 import Healthcare_Hero from "../../assets/projects/Healthcare-Hero.PNG";
 import COVID from "../../assets/projects/COVID_by_Country.jpg";
-// import COVID_Tracker from "../../assets/small/2.jpg";
-// import Tech_Blog from "../../assets/small/3.jpg";
-// import Password_Generator from "../../assets/small/4.jpg";
-// import Weather_Dashboard from "../../assets/small/5.jpg";
-import profileImage from "../../assets/cover/profile_image2.JPG";
-import Recipe from "../../assets/projects/Recipe.png";
+import Budget from "../../assets/projects/Budget_tracker.png";
+import Code from "../../assets/projects/Code_quiz.jpg";
 
 function Portfolio() {
   return (
@@ -16,48 +13,54 @@ function Portfolio() {
         <Grid xs={6} lg={6}>
           <div className="project1 flex">
             <img src={Recipe} className="px-1 mx-2" alt="profile" />
-            <Container maxWidth="sm" className="prj1">
-            <Link href="#">Cuisine</Link>
-              <Grid>Description description</Grid>
+            <Container fluid className="prj1">
+              <Link display="flex" justifyContent="center" href="#">Cuisine</Link>
+              <Grid display="flex" justifyContent="center">Project 1 Description description</Grid>
+            </Container>
+          </div>
+        </Grid>
+        <Grid xs={6} lg={6}>
+          <div className="project1">
+            <img src={COVID} className="px-1 mx-2" alt="profile" />
+            <Container fluid className="prj2">
+              <Link display="flex" justifyContent="center" href="#">COVID Tracker</Link>
+              <Grid display="flex" justifyContent="center" >Project 2 Description description</Grid>
             </Container>
           </div>
         </Grid>
         <Grid xs={6} lg={6}>
           <div className="project1">
             <img src={Healthcare_Hero} className="px-1 mx-2" alt="profile" />
-            <Button>Healthcare Hero</Button>
-            <div>PROJECT 1</div>
+            <Container fluid className="prj1">
+              <Link display="flex" justifyContent="center" href="#">Healthcare Hero</Link>
+              <Grid display="flex" justifyContent="center">Project 3 Description description</Grid>
+            </Container>
           </div>
         </Grid>
         <Grid xs={6} lg={6}>
-        <div className="project1">
-            <img src={COVID} className="px-1 mx-2" alt="profile" />
-            <Button>Healthcare Hero</Button>
-            <div>PROJECT 3</div>
-          </div>
-        </Grid>
-        <Grid xs={6} lg={6}>
-          <Grid xs={6} lg={6} className="my-4">
-            <div className="my-4">
+          <Grid container fluid xs={12} lg={12}>
+            <Grid xs={8}>
               <img
-                src={COVID}
-                className="px-1 mx-2"
-                style={{ width: "50%" }}
-                alt="profile"
+                src={Budget}
+                alt="Budget"
               />
-              <Button>Healthcare Hero</Button>
-              <div>PROJECT 4</div>
-            </div>
+            </Grid>
+            <Grid xs={4}>
+              <Button display="flex" justifyContent="center">Budget Tracker</Button>
+              <div display="flex" justifyContent="center">PROJECT 4 Description Description</div>
+            </Grid>
           </Grid>
-          <Grid xs={6} lg={6}>
-            <img
-              src={profileImage}
-              // className="px-1 mx-2"
-              // style={{ width: "70%" }}
-              alt="profile"
-            />
-            <Button>Healthcare Hero</Button>
-            <div>PROJECT 4</div>
+          <Grid container fluid xs={12} lg={12}>
+            <Grid xs={8}>
+              <img
+                src={Code}
+                alt="Code"
+              />
+            </Grid>
+            <Grid xs={4}>
+              <Button display="flex" justifyContent="center">Code Challenge</Button>
+              <div display="flex" justifyContent="center">PROJECT 5 Description Description</div>
+            </Grid>
           </Grid>
         </Grid>
       </Grid>

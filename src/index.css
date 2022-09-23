@@ -299,8 +299,8 @@ a {
   height: 200px;
 }
 
-.prj1 {
-  /* align-items: center;
-  justify-content: center; */
+.project-description {
+  align-items: center;
+  justify-content: center;
   padding-bottom: 5vw;
 }
