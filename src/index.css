@@ -294,3 +294,13 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.project_1 {
+  height: 200px;
+}
+
+.project-description {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5vw;
+}
