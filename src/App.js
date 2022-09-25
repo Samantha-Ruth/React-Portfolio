@@ -1,42 +1,34 @@
 import React, { useState } from 'react';
 import './App.css';
-import About from './components/About';
-import Nav from './components/Nav';
-import Portfolio from './components/Portfolio';
-import ContactForm from './components/Contact';
+import Nav from '../src/components/Nav';
+import About from '../src/components/About';
+import Portfolio from '../src/components/Portfolio';
+import Contact from '../src/components/Contact';
+
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+function App(props) {
+  const [currentPage, setCurrentPage] = useState('About');
 
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-
-  const [contactSelected, setContactSelected] = useState(false);
+  const renderPage = () => {
+    switch (currentPage) {
+        case "About":
+            return <About />
+        case "Portfolio":
+            return <Portfolio />
+        case "Contact":
+            return <Contact />
+        default:
+            return <About></About>
+    }
+}
 
   return (
-    <>
-    <div> 
-      <Nav 
-        portfolioSelected = {portfolioSelected}
-        setPortfolioSelected = {setPortfolioSelected}
-        contactSelected = {contactSelected}
-        setContactSelected = {setContactSelected}
-        ></Nav>
-    </div>
-    <main>
-        {!contactSelected  && !portfolioSelected ? (
-          <>
-          {/* <Portfolio /> */}
-          <About/>
-          </>
-          ) : (
-            <ContactForm/>
-          )}
-    </main>
-      <footer>
-          {/* < Footer /> */}
-      </footer>
-      </>
+<div>
+  <Nav currentPage={currentPage} changeCurrentPage={setCurrentPage} />
+  {renderPage()}
+  <Footer />
+</div>
   );
 }
 

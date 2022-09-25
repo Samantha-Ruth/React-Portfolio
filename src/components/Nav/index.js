@@ -1,13 +1,6 @@
 import React from "react";
 
-const pages = ['Portfolio', 'Contact', 'Resume'];
-const settings = ['SQL', 'NoSQL', 'MERN', 'Express'];
-
 function Nav(props) {
-
-  const { portfolioSelected, setPortfolioSelected } = props;
-
-  const { contactSelected, setContactSelected } = props;
 
   return (
     <header className="flex-row mx-auto">
@@ -22,20 +15,28 @@ function Nav(props) {
             <a
               data-testid="about"
               href="#about"
-              onClick={() => setContactSelected(false) && setPortfolioSelected(false)}
-            >
+              onClick={() => props.changeCurrentPage("About")}>
               About Me
             </a>
           </li>
 
           {/* PORTFOLIO STARTS HERE */}
-          <li className={`mx-2 ${portfolioSelected && "navActive"}`}>
-            <span onClick={() => setPortfolioSelected(true)}>Portfolio</span>
+          <li className="mx-2">
+            <a
+              data-testid="portfolio"
+              href="#portfolio"
+              onClick={() => props.changeCurrentPage("Portfolio")}>
+              Portfolio
+            </a>
           </li>
-        
           {/* CONTACT STARTS HERE */}
-          <li className={`mx-2 ${contactSelected && "navActive"}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+          <li className="mx-2">
+            <a
+              data-testid="contact"
+              href="#contact"
+              onClick={() => props.changeCurrentPage("Contact")}>
+              Contact
+            </a>
           </li>
           <li className="mx-2">
             <a
