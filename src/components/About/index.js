@@ -1,6 +1,6 @@
 import React from "react";
 // import coverImage from "../../assets/cover/brick-background.jpg";
-import profileImage from "../../assets/cover/profile_image2.JPG";
+import profileImage from "../../assets/profile.jpg";
 import { Grid, Box } from "@mui/material";
 
 const About = () => {

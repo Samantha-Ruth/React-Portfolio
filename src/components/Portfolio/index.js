@@ -1,10 +1,10 @@
 import React from "react";
 import { Grid, Container, Box, Button, Link } from "@mui/material";
-import Recipe from "../../assets/projects/Recipe.png";
-import Healthcare_Hero from "../../assets/projects/Healthcare-Hero.PNG";
+import recipe from "../../assets/projects/Recipe.png";
+import healthcare_Hero from "../../assets/projects/Healthcare-Hero.PNG";
 import COVID from "../../assets/projects/COVID_by_Country.jpg";
-import Budget from "../../assets/projects/Budget_tracker.png";
-import Code from "../../assets/projects/Code_quiz.jpg";
+import budget from "../../assets/projects/Budget_tracker.png";
+import code from "../../assets/projects/Code_quiz.jpg";
 
 function Portfolio() {
   return (
@@ -12,9 +12,9 @@ function Portfolio() {
       <Grid container spacing={2}>
         <Grid xs={6} lg={6}>
           <div className="project1 flex">
-            <img src={Recipe} className="px-1 mx-2" alt="profile" />
+            <img src={recipe} className="px-1 mx-2" alt="profile" />
             <Container fluid className="prj1">
-              <Link display="flex" justifyContent="center" href="#">Cuisine</Link>
+              <Link display="flex" justifyContent="center" href="https://young-shelf-43673.herokuapp.com/" target="_blank" rel="noreferrer">Cuisine</Link>
               <Grid display="flex" justifyContent="center">Project 1 Description description</Grid>
             </Container>
           </div>
@@ -23,16 +23,16 @@ function Portfolio() {
           <div className="project1">
             <img src={COVID} className="px-1 mx-2" alt="profile" />
             <Container fluid className="prj2">
-              <Link display="flex" justifyContent="center" href="#">COVID Tracker</Link>
+              <Link display="flex" justifyContent="center" href="https://samantha-ruth.github.io/Group-Covid-Project/" target="_blank" rel="noreferrer">COVID Tracker</Link>
               <Grid display="flex" justifyContent="center" >Project 2 Description description</Grid>
             </Container>
           </div>
         </Grid>
         <Grid xs={6} lg={6}>
           <div className="project1">
-            <img src={Healthcare_Hero} className="px-1 mx-2" alt="profile" />
+            <img src={healthcare_Hero} className="px-1 mx-2" alt="profile" />
             <Container fluid className="prj1">
-              <Link display="flex" justifyContent="center" href="#">Healthcare Hero</Link>
+              <Link display="flex" justifyContent="center" href="https://quiet-river-83898.herokuapp.com" target="_blank" rel="noreferrer">Healthcare Hero</Link>
               <Grid display="flex" justifyContent="center">Project 3 Description description</Grid>
             </Container>
           </div>
@@ -41,24 +41,24 @@ function Portfolio() {
           <Grid container fluid xs={12} lg={12}>
             <Grid xs={8}>
               <img
-                src={Budget}
+                src={budget}
                 alt="Budget"
               />
             </Grid>
             <Grid xs={4}>
-              <Button display="flex" justifyContent="center">Budget Tracker</Button>
+              <Button display="flex" justifyContent="center" href="https://whispering-escarpment-95024.herokuapp.com" target="_blank" rel="noreferrer">Budget Tracker</Button>
               <div display="flex" justifyContent="center">PROJECT 4 Description Description</div>
             </Grid>
           </Grid>
           <Grid container fluid xs={12} lg={12}>
             <Grid xs={8}>
               <img
-                src={Code}
+                src={code}
                 alt="Code"
               />
             </Grid>
             <Grid xs={4}>
-              <Button display="flex" justifyContent="center">Code Challenge</Button>
+              <Button display="flex" justifyContent="center" href="https://samantha-ruth.github.io/Code-Quiz/" target="_blank" rel="noreferrer">Code Challenge</Button>
               <div display="flex" justifyContent="center">PROJECT 5 Description Description</div>
             </Grid>
           </Grid>
