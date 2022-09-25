@@ -3,7 +3,7 @@ import React from "react";
 function Nav(props) {
 
   return (
-    <header className="flex-row mx-auto">
+    <header className="navbar flex-row mx-auto">
       <h2 className="mx-2">
         <a data-testid="link" href="/">
           <span role="img">Samantha Haberman</span>

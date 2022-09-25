@@ -45,7 +45,6 @@ html {
   background-color: var(--light);
 }
 
-
 .navbar {
   background-color: var(--light);
 }
@@ -56,22 +55,20 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 address {
-  font-style: normal
+  font-style: normal;
 }
-
 
 #tech-blog {
   border: 1px solid blue;
 }
 
 .footer {
-  background-color: #0A122A;
+  background-color: #0a122a;
 }
-
 
 .App-logo {
   height: 40vmin;
@@ -86,14 +83,18 @@ address {
 
 @media screen and (max-width: 980px) {
   #navbar-name {
-      justify-content: center;
+    justify-content: center;
   }
 
   #navbar-sections {
-      justify-content: center;
+    justify-content: right;
   }
 }
-
+header {
+  padding-top: 3vw;
+  padding-bottom: 5vw;
+  align-items: center;
+}
 .App-header {
   background-color: var(--light);
   min-height: 100vh;

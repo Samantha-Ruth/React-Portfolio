@@ -9,59 +9,43 @@ import code from "../../assets/projects/Code_quiz.jpg";
 function Portfolio() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2}>
-        <Grid xs={6} lg={6}>
-          <div className="project1 flex">
-            <img src={recipe} className="px-1 mx-2" alt="profile" />
+      <Grid container spacing={1}>
+        <Grid xs={5} lg={5} 
+        className="project1">
+           <Link display="flex" justifyContent="center" href="https://young-shelf-43673.herokuapp.com/" target="_blank" rel="noreferrer">Supper Snacks</Link>
+            <img className="image" src={recipe}   style={{ width: "90%" }} alt="profile" />
             <Container fluid className="prj1">
-              <Link display="flex" justifyContent="center" href="https://young-shelf-43673.herokuapp.com/" target="_blank" rel="noreferrer">Cuisine</Link>
-              <Grid display="flex" justifyContent="center">Project 1 Description description</Grid>
+              <Grid display="flex" justifyContent="center">Compose a meal with what's left in your fridge!</Grid>
+              <Link display="flex" justifyContent="center" href="https://github.com/Samantha-Ruth/recipe-gen" target="_blank" rel="noreferrer">GitHub</Link>
             </Container>
-          </div>
         </Grid>
-        <Grid xs={6} lg={6}>
-          <div className="project1">
+        <Grid xs={5} lg={5} className="project1">
+            <Link display="flex" justifyContent="center" href="https://samantha-ruth.github.io/Group-Covid-Project/" target="_blank" rel="noreferrer">COVID Tracker</Link>
             <img src={COVID} className="px-1 mx-2" alt="profile" />
             <Container fluid className="prj2">
-              <Link display="flex" justifyContent="center" href="https://samantha-ruth.github.io/Group-Covid-Project/" target="_blank" rel="noreferrer">COVID Tracker</Link>
-              <Grid display="flex" justifyContent="center" >Project 2 Description description</Grid>
+              <Grid display="flex" justifyContent="center" >Front-end application that provides COVID-19 data per country.</Grid>
+              <Link display="flex" justifyContent="center" href="https://github.com/Samantha-Ruth/recipe-gen" target="_blank" rel="noreferrer">GitHub</Link>
             </Container>
-          </div>
         </Grid>
-        <Grid xs={6} lg={6}>
-          <div className="project1">
+        <Grid xs={5} lg={5} className="project1">
+          <Link display="flex" justifyContent="center" href="https://quiet-river-83898.herokuapp.com" target="_blank" rel="noreferrer">Healthcare Hero</Link>
             <img src={healthcare_Hero} className="px-1 mx-2" alt="profile" />
             <Container fluid className="prj1">
-              <Link display="flex" justifyContent="center" href="https://quiet-river-83898.herokuapp.com" target="_blank" rel="noreferrer">Healthcare Hero</Link>
-              <Grid display="flex" justifyContent="center">Project 3 Description description</Grid>
+              <Grid display="flex" justifyContent="center">Web application to help patients compare the cost of a service across different medical providers.</Grid>
+              <Link display="flex" justifyContent="center" href="https://github.com/Samantha-Ruth/recipe-gen" target="_blank" rel="noreferrer">GitHub</Link>
             </Container>
-          </div>
         </Grid>
-        <Grid xs={6} lg={6}>
-          <Grid container fluid xs={12} lg={12}>
-            <Grid xs={8}>
+        <Grid xs={5} lg={5} className="project1">
+          <Link display="flex" justifyContent="center" href="https://whispering-escarpment-95024.herokuapp.com" target="_blank" rel="noreferrer">Budget Tracker</Link>
               <img
                 src={budget}
                 alt="Budget"
+                className="px-1 mx-2" 
               />
-            </Grid>
-            <Grid xs={4}>
-              <Button display="flex" justifyContent="center" href="https://whispering-escarpment-95024.herokuapp.com" target="_blank" rel="noreferrer">Budget Tracker</Button>
-              <div display="flex" justifyContent="center">PROJECT 4 Description Description</div>
-            </Grid>
-          </Grid>
-          <Grid container fluid xs={12} lg={12}>
-            <Grid xs={8}>
-              <img
-                src={code}
-                alt="Code"
-              />
-            </Grid>
-            <Grid xs={4}>
-              <Button display="flex" justifyContent="center" href="https://samantha-ruth.github.io/Code-Quiz/" target="_blank" rel="noreferrer">Code Challenge</Button>
-              <div display="flex" justifyContent="center">PROJECT 5 Description Description</div>
-            </Grid>
-          </Grid>
+              <Container fluid className="prj1">
+              <Grid display="flex" justifyContent="center">Keep track of your finances!</Grid>
+              <Link display="flex" justifyContent="center" href="https://github.com/Samantha-Ruth/recipe-gen" target="_blank" rel="noreferrer">GitHub</Link>
+            </Container>
         </Grid>
       </Grid>
     </Box>
