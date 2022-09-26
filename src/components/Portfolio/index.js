@@ -34,7 +34,7 @@ function Portfolio() {
         <Grid xs={5} lg={5} className="project1">
         <Grid display="flex" justifyContent="center" alignItems="center">
           <Link display="flex" justifyContent="center" href="https://quiet-river-83898.herokuapp.com" target="_blank" rel="noreferrer">Healthcare Hero</Link>
-          <IconButton size="large" aria-label="delete" href="https://github.com/Samantha-Ruth/supper-snacks" target="_blank" rel="noreferrer">
+          <IconButton size="large" aria-label="delete" href="https://github.com/Samantha-Ruth/healthcare-hero" target="_blank" rel="noreferrer">
                 <GitHubIcon  />
             </IconButton>
             </Grid>
