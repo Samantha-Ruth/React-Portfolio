@@ -6,8 +6,15 @@ import { Grid, Box } from "@mui/material";
 const About = () => {
   return (
     <div>
-      <section className="my-5">
-        <div className="hero">
+      <section>
+        <div
+          style={{
+            display: "flex",
+            padding: "5vw",
+            alignItems: "center",
+            height: "5vw",
+          }}
+        >
           <h1 id="about">About Me</h1>
         </div>
       </section>

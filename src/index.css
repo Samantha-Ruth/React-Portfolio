@@ -317,6 +317,6 @@ a {
 
 .contact {
   min-height: calc(75vh - 45px);
-  background-color: #343a40;
+  padding: 3vw;
 } 
 

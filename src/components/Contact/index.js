@@ -44,11 +44,11 @@ function ContactForm () {
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor='name'>Name:</label>
-                    <input type='text' name='name' defaultValue={formState.name} onBlur={handleChange}/>
+                    <input className="my-1" type='text' name='name' defaultValue={formState.name} onBlur={handleChange}/>
                 </div>
                 <div>
                     <label htmlFor='email'>Email:</label>
-                    <input type='email' name='email' defaultValue={formState.email} onBlur={handleChange}/>
+                    <input className="my-1" type='email' name='email' defaultValue={formState.email} onBlur={handleChange}/>
                 </div>
                 <div>
                     <label htmlFor='message'>Message:</label>
