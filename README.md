@@ -14,7 +14,7 @@ This portfolio increased my ability to build applications using React.  I learne
 If the user desired, they could download the app and then run `npm start`.  This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-The link to the deployed project is here: https://samantha-ruth.github.io/Portfolio/
+The link to the deployed project is here: https://samantha-ruth.github.io/react_portfolio
 
 The url of the Git repository is here: https://github.com/Samantha-Ruth/React_Portfolio
 
