@@ -325,3 +325,8 @@ a {
   padding-bottom: 2vw;
   padding-left: 2vw;
 }
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
