@@ -23,8 +23,9 @@ const About = () => {
               public accidentally does, training others in tactical high
               angle-rescue, and helping sick and injured patients on the slope.
               I’ve devoted most of my life to heavy lifting, hard work, and
-              developing programs to make this work easier. I wnat to learn and grow
-              as a developer, meeting challenges and solving problems. 
+              developing programs to make this work more efficient. I continue to grow
+              as a developer, meeting challenges, solving problems, and making everyone's
+              day a little easier. 
               </p>
             </Grid>
           <Grid container justifyContent="center" style={{ width: "100%" }}>
