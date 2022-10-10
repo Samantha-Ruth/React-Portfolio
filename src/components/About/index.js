@@ -28,26 +28,7 @@ const About = () => {
               alt="profile"
             />
             <p className="px-2 my-5" style={{ width: "75%" }}>
-              Front-end web developer with solid work experience and interest in
-              real world applications, working to build a more intuitive and
-              approachable user experience on the web.
-              <strong>
-                Recently earned a certificate in full stack development from
-                Columbia Engineering, and have newly developed skills in
-                JavaScript, responsive web design, NODE, Express, SQL, MySql2,
-                Sequelize, and Handlebars. Have intimate knowledge of ORMs and
-                the MVC paradigm. I recently completed a full-stack development
-                project, working on a team of five to create an application that
-                helps users price out medical costs by provider. With each
-                project, my aim is to best engage my audience for an impactful
-                user experience. I am an innovative problem solver passionate
-                about developing apps to approach real world problems and help
-                users make their lives easier, with a focus on mobile-first
-                design and development. I'm excited to leverage my skills as
-                part of a fast-paced, quality-driven team to build better
-                experiences on the web.
-              </strong>
-            </p>
+            Full stack developer, focused on taking difficult aspects of a job and making them more streamlined, organized, cleaner, and efficient.  Born in the mountains, I have been working in the ski industry most of my career, setting off avalanches before the public accidentally does, training others in tactical high angle-rescue, and helping sick and injured patients on the slope.  I’ve devoted most of my life to heavy lifting, hard work, and developing programs to make this work easier, including a tracking system for explosives, an automated scheduler, and an easy-to-follow evacuation plan that pulls everyone together with a common goal. While I’ve been a developer my whole life, I’ve recently gotten more serious and attained a certificate from Columbia Engineering bootcamp.  I enjoy challenges and solving problems, and coding provides a platform of endless learning as well as tangible accomplishment.  I want to learn and grow as a developer, using  best practices to solve real world problems. </p>
           </Grid>
         </Grid>
       </Box>
