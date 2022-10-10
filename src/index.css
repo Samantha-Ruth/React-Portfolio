@@ -299,6 +299,12 @@ a {
   color: var(--secondary);
 }
 
+/* .portfolio-name {
+  animation: fadeIn 5s;
+  font-family: "bigillabold";
+  font-size: 64px;
+} */
+
 .image {
   margin-left: 3vw;
   margin-right: 0vw;
@@ -329,18 +335,12 @@ a {
   padding-left: 2vw;
 }
 
-.about_text1 {
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  font-size: 1.7vw;
-  padding-top: 2.5vw;
-}
 .about_text {
   justify-content: center;
   align-content: center;
   align-items: center;
   font-size: 1.7vw;
+  text-align: center;
 }
 
 .icons {

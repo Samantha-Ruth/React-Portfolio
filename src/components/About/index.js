@@ -1,6 +1,6 @@
 import React from "react";
 // import coverImage from "../../assets/cover/brick-background.jpg";
-import profileImage from "../../assets/profile.jpg";
+import profileImage from "../../assets/1a.jpg";
 import { Grid, Box } from "@mui/material";
 
 const About = () => {
@@ -8,15 +8,14 @@ const About = () => {
     <div>
       <Box sx={{ flexGrow: 1 }}>
         <Grid container className="flex-row">
-          <Grid container>
             <Grid container>
             <img
               src={profileImage}
               alt="profile"
               className="py-1 my-2"
-              style={{ width: "35%" }}
+              style={{ width: "30%"}}
             />
-            <p className="about_text1 px-2 my-5" style={{ width: "65%" }}>
+            <p className="about_text px-2 my-5" style={{ width: "65%" }}>
               Full stack developer, focused on taking difficult aspects of a job
               and making them more streamlined, organized, cleaner, and
               efficient. Born in the mountains, I have been working in the ski
@@ -24,22 +23,10 @@ const About = () => {
               public accidentally does, training others in tactical high
               angle-rescue, and helping sick and injured patients on the slope.
               I’ve devoted most of my life to heavy lifting, hard work, and
-              developing programs to make this work easier, including a tracking
-              system for explosives, an automated scheduler, and an
-              easy-to-follow evacuation plan that pulls everyone together with a
-              common goal.
+              developing programs to make this work easier. I wnat to learn and grow
+              as a developer, meeting challenges and solving problems. 
               </p>
             </Grid>
-            <Grid className="px-2">
-            <p className="about_text px-2"> While I’ve been a developer my whole life, I’ve
-              recently gotten more serious and attained a certificate from
-              Columbia Engineering bootcamp. I enjoy challenges and solving
-              problems, and coding provides a platform of endless learning as
-              well as tangible accomplishment. I want to learn and grow as a
-              developer, using best practices to solve real world problems.{" "}
-            </p>
-            </Grid>
-          </Grid>
           <Grid container justifyContent="center" style={{ width: "100%" }}>
             <div className="icons">
               <img

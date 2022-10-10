@@ -6,7 +6,7 @@ function Nav(props) {
     <header className="navbar flex-row mx-auto">
       <h2 className="mx-2">
         <a data-testid="link" href="/">
-          <span role="img">Samantha Haberman</span>
+          <span className="portfolio-name" role="img" >Samantha Haberman</span>
         </a>
       </h2>
       <nav>
