@@ -7,15 +7,23 @@ const About = () => {
   return (
     <div>
       <Box sx={{ flexGrow: 1 }}>
-        <Grid container className="flex-row">
-            <Grid container>
-            <img
+        <Grid 
+          container 
+          spacing={2}
+          justifyContent="center"
+          alignItems="center">
+            <Grid item xs={10} sm = {4}>
+            <img 
               src={profileImage}
               alt="profile"
-              className="py-1 my-2"
-              style={{ width: "30%"}}
+              className="fluid py-1 my-2"
+              // style={{ width: "30%"}}
             />
-            <p className="about_text px-2 my-5" style={{ width: "65%" }}>
+            </Grid>
+            <Grid item xs={10} sm = {7}>
+            <p className="fluid about_text px-2 my-5"
+              // style={{ width: "65%" }}
+              >
               Full stack developer, focused on taking difficult aspects of a job
               and making them more streamlined, organized, cleaner, and
               efficient. Born in the mountains, I have been working in the ski
