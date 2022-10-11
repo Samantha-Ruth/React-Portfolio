@@ -9,20 +9,18 @@ const About = () => {
       <Box sx={{ flexGrow: 1 }}>
         <Grid 
           container 
-          spacing={2}
+          spacing={0.5}
           justifyContent="center"
           alignItems="center">
-            <Grid item xs={10} sm = {4}>
+            <Grid item xs={8} sm = {4}>
             <img 
               src={profileImage}
               alt="profile"
-              className="fluid py-1 my-2"
-              // style={{ width: "30%"}}
+              className="py-1 my-2"
             />
             </Grid>
             <Grid item xs={10} sm = {7}>
-            <p className="fluid about_text px-2 my-5"
-              // style={{ width: "65%" }}
+            <p className="about_text px-2 my-5"
               >
               Full stack developer, focused on taking difficult aspects of a job
               and making them more streamlined, organized, cleaner, and
