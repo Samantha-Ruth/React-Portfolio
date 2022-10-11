@@ -12,15 +12,15 @@ const About = () => {
           spacing={0.5}
           justifyContent="center"
           alignItems="center">
-            <Grid item xs={8} sm = {4}>
+            <Grid item xs={7} sm={6} md = {4}>
             <img 
               src={profileImage}
               alt="profile"
               className="py-1 my-2"
             />
             </Grid>
-            <Grid item xs={10} sm = {7}>
-            <p className="about_text px-2 my-5"
+            <Grid item xs={10} sm = {10} md = {7}>
+            <p className="about_text"
               >
               Full stack developer, focused on taking difficult aspects of a job
               and making them more streamlined, organized, cleaner, and
