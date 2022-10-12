@@ -92,7 +92,8 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+    color: blue;
+  /* text-decoration: underline; */
 }
 
 header {
@@ -299,11 +300,16 @@ a {
   color: var(--secondary);
 }
 
-/* .portfolio-name {
+.portfolio-name {
   animation: fadeIn 5s;
-  font-family: "bigillabold";
+  font-family: "Dancing Script", cursive;
+  flex-wrap: wrap;
   font-size: 64px;
-} */
+  margin: 3vw;
+  justify-content: center;
+  transform: translate(0px, 0%);
+  text-indent: 22vw;
+}
 
 .image {
   margin-left: 3vw;
@@ -351,5 +357,11 @@ a {
 @media screen and (max-width: 900px) { 
   .about_text {
     font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 600px) { 
+  .about_text {
+    font-size: 1em;
   }
 }
