@@ -7,21 +7,14 @@ const About = () => {
   return (
     <div>
       <Box sx={{ flexGrow: 1 }}>
-        <Grid 
-          container 
+        <Grid
+          container
           spacing={0.5}
           justifyContent="center"
-          alignItems="center">
-            <Grid item xs={7} sm={6} md = {4}>
-            <img 
-              src={profileImage}
-              alt="profile"
-              className="py-1 my-2 profile-image"
-            />
-            </Grid>
-            <Grid item xs={10} sm = {10} md = {7}>
-            <p className="about_text"
-              >
+          alignItems="center"
+        >
+          <Grid item xs={10} sm={10} md={7}>
+            <p className="about_text">
               Full stack developer, focused on taking difficult aspects of a job
               and making them more streamlined, organized, cleaner, and
               efficient. Born in the mountains, I have been working in the ski
@@ -29,11 +22,18 @@ const About = () => {
               public accidentally does, training others in tactical high
               angle-rescue, and helping sick and injured patients on the slope.
               I’ve devoted most of my life to heavy lifting, hard work, and
-              developing programs to make this work more efficient. I continue to grow
-              as a developer, meeting challenges, solving problems, and making everyone's
-              day a little easier. 
-              </p>
-            </Grid>
+              developing programs to make this work more efficient. I continue
+              to grow as a developer, meeting challenges, solving problems, and
+              making everyone's day a little easier.
+            </p>
+          </Grid>
+          <Grid item xs={7} sm={6} md={4}>
+            <img
+              src={profileImage}
+              alt="profile"
+              className="py-1 my-2 profile-image"
+            />
+          </Grid>
           <Grid container justifyContent="center" style={{ width: "100%" }}>
             <div className="icons">
               <img
