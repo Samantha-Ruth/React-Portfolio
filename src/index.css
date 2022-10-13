@@ -130,7 +130,7 @@ img {
 }
 
 span[role="img"] {
-  padding: 5vw;
+  /* padding: 5vw; */
   cursor: default;
 }
 
@@ -305,7 +305,7 @@ a {
   font-family: "Dancing Script", cursive;
   flex-wrap: wrap;
   font-size: 64px;
-  margin: 3vw;
+  /* margin: 3vw; */
   justify-content: center;
   transform: translate(0px, 0%);
   text-indent: 22vw;
@@ -342,6 +342,7 @@ a {
 }
 
 .about_text {
+  position: relative;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -364,4 +365,30 @@ a {
   .about_text {
     font-size: 1em;
   }
+}
+
+/* .hero {
+  position: relative;
+} */
+
+.name {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  position: absolute;
+  top: 95px;
+  left: 20vw;
+}
+
+.title2 {
+  position: absolute;
+  top: 50px;
+  left: -15vw;
+}
+
+.box {
+  position: absolute;
 }
