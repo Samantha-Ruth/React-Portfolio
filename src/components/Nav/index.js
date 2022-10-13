@@ -3,9 +3,9 @@ import React from "react";
 function Nav(props) {
 
   return (
-    <header className="navbar flex-row mx-auto">
+    <header className="flex-row">
       <nav>
-        <ul className="flex-row">
+        <ul className="navbar flex-row">
           <li className="mx-2">
             <a
               data-testid="about"

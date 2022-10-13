@@ -6,25 +6,22 @@ import { Grid, Box } from "@mui/material";
 const About = () => {
   return (
     <>
-    <div className="box">
-      <div className="hero">
-        <div className="name">
-          <span className="portfolio-name name1" role="img">
-            Samantha
-          </span>
-          <span className="portfolio-name name2" role="img">
-            Haberman
-          </span>
-        </div>
-        <div className="title">
-          <span className="portfolio-name title1">Full-Stack</span>
-        </div>
-        <div className="title">
-          <span className="portfolio-name title2">Developer</span>
+      <div className="box">
+        <div className="hero">
+          <div className="name">
+            <span className="portfolio-name name1" role="img">
+              Samantha Haberman
+            </span>
+          </div>
+          <div className="title">
+            <span className="portfolio-name title1">Full-Stack</span>
+          </div>
+          <div className="title">
+            <span className="portfolio-name title2">Developer</span>
+          </div>
         </div>
       </div>
-      </div>
-      <div>
+      <div className="box2">
         <Box sx={{ flexGrow: 1 }}>
           <Grid
             container
@@ -33,7 +30,11 @@ const About = () => {
             alignItems="center"
           >
             <Grid item xs={7} sm={6} md={4}>
-              <img src={profileImage} alt="profile" className="py-1 my-2" />
+              <img
+                src={profileImage}
+                alt="profile"
+                className="py-1 my-2 profile-image"
+              />
             </Grid>
             <Grid item xs={10} sm={10} md={7}>
               <p className="about_text">

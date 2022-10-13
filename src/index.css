@@ -11,7 +11,7 @@ main {
   /* --tertiary: #bbc4eb; */
   --tertiary: #fdfdfd;
   /* --light: #e1e5f8; */
-  --light: #fdfdfd;
+  --light: #e8e4dc;
   --contrast: #ffec9f;
   --dark: #000000;
   --darker: #111111;
@@ -89,15 +89,17 @@ a {
   color: var(--secondary);
   text-decoration: none;
   font-weight: bold;
+  font-family: cursive;
 }
 
 a:hover {
-    color: blue;
+    color: grey;
   /* text-decoration: underline; */
 }
 
 header {
   background: var(--light);
+  justify-content: right;
 }
 
 header a {
@@ -156,11 +158,18 @@ li {
   list-style: none;
 }
 
-nav a:hover {
-  text-decoration: none;
+nav {
+  margin-left: -10px;
+  border-bottom: 1px solid black;
+  margin-top: -30px;
 }
 
-nav  li {
+nav a:hover {
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+nav li {
   cursor: pointer;
 }
 
@@ -290,7 +299,7 @@ a {
 	border-radius: 5px;
 	color: var(--primary);
 	font-weight: 600;
-	padding: 2px 4px;
+	padding: 2px;
 	margin-left: -2px;
 	margin-right: -2px;
 	
@@ -304,7 +313,7 @@ a {
   animation: fadeIn 5s;
   font-family: "Dancing Script", cursive;
   flex-wrap: wrap;
-  font-size: 64px;
+  /* font-size: 64px; */
   /* margin: 3vw; */
   justify-content: center;
   transform: translate(0px, 0%);
@@ -334,6 +343,10 @@ a {
   min-height: calc(75vh - 45px);
   padding: 3vw;
 } 
+
+.profile-image {
+  border-radius: 50px;
+}
 
 .about {
   padding-top: 2vw;
@@ -373,22 +386,30 @@ a {
 
 .name {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -25px;
+  left: 50px;
+  font-size: 64px;
 }
 
 .title {
   position: absolute;
-  top: 95px;
-  left: 20vw;
+  top: 50px;
+  left: 35vw;
+  font-size: 50px;
 }
 
 .title2 {
   position: absolute;
   top: 50px;
-  left: -15vw;
+  left: -13vw;
+  font-size: 50px;
 }
 
 .box {
-  position: absolute;
+  position: relative;
+  height: 170px;
+}
+
+.box2 {
+  position: relative;
 }
