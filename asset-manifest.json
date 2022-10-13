@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.dc47b656.css",
-    "main.js": "/react_portfolio/static/js/main.61b2fe97.js",
+    "main.css": "/react_portfolio/static/css/main.d0c8c645.css",
+    "main.js": "/react_portfolio/static/js/main.3bbcbdd6.js",
     "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Recipe.png": "/react_portfolio/static/media/Recipe.83740997bbd00011f541.png",
-    "static/media/1a.jpg": "/react_portfolio/static/media/1a.b78df32b3636cc9418a8.jpg",
+    "static/media/Profile_Photo_B_W.jpg": "/react_portfolio/static/media/Profile_Photo_B_W.fd7a1ca874a6b75820e0.jpg",
     "static/media/COVID_by_Country.jpg": "/react_portfolio/static/media/COVID_by_Country.f06ed1c1b6c288b7eb88.jpg",
     "static/media/Healthcare-Hero.PNG": "/react_portfolio/static/media/Healthcare-Hero.3c955ed91788f3433288.PNG",
     "static/media/Budget_tracker.png": "/react_portfolio/static/media/Budget_tracker.b0245322e9806a342561.png",
     "index.html": "/react_portfolio/index.html",
-    "main.dc47b656.css.map": "/react_portfolio/static/css/main.dc47b656.css.map",
-    "main.61b2fe97.js.map": "/react_portfolio/static/js/main.61b2fe97.js.map",
+    "main.d0c8c645.css.map": "/react_portfolio/static/css/main.d0c8c645.css.map",
+    "main.3bbcbdd6.js.map": "/react_portfolio/static/js/main.3bbcbdd6.js.map",
     "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc47b656.css",
-    "static/js/main.61b2fe97.js"
+    "static/css/main.d0c8c645.css",
+    "static/js/main.3bbcbdd6.js"
   ]
 }
