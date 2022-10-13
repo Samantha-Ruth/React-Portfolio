@@ -13,11 +13,13 @@ const About = () => {
               Samantha Haberman
             </span>
           </div>
-          <div className="title">
-            <span className="portfolio-name title1">Full-Stack</span>
-          </div>
-          <div className="title">
-            <span className="portfolio-name title2">Developer</span>
+          <div>
+            <div >
+              <span className="portfolio-name title1">Full-Stack</span>
+              </div>
+              <div>
+              <span className="portfolio-name title2">Developer</span>
+            </div>
           </div>
         </div>
       </div>

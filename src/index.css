@@ -158,6 +158,10 @@ li {
   list-style: none;
 }
 
+ul {
+  padding: 0px;
+}
+
 nav {
   margin-left: -10px;
   border-bottom: 1px solid black;
@@ -346,6 +350,7 @@ a {
 
 .profile-image {
   border-radius: 50px;
+  z-index: -1;
 }
 
 .about {
@@ -388,26 +393,34 @@ a {
   position: absolute;
   top: -25px;
   left: 50px;
-  font-size: 64px;
+  font-size: 70px;
+  border: 2px solid green;
 }
 
-.title {
+.job-title {
+  border: 2px solid red;
+  border-bottom: 2px solid black;
+}
+
+.title1 {
   position: absolute;
-  top: 50px;
-  left: 35vw;
-  font-size: 50px;
+  top: 70px;
+  left: -17vw;
+  font-size: 64px;
+  border: 2px solid red;
 }
 
 .title2 {
   position: absolute;
-  top: 50px;
-  left: -13vw;
-  font-size: 50px;
+  top: 128px;
+  /* left: -13vw; */
+  font-size: 64px;
+  border: 2px solid red;
 }
 
 .box {
   position: relative;
-  height: 170px;
+  height: 200px;
 }
 
 .box2 {
