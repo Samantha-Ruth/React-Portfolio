@@ -1,6 +1,6 @@
 import React from "react";
 // import coverImage from "../../assets/cover/brick-background.jpg";
-import profileImage from "../../assets/1a.jpg";
+import profileImage from "../../assets/Profile_Photo_B_W.jpg";
 import { Grid, Box } from "@mui/material";
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
             <img 
               src={profileImage}
               alt="profile"
-              className="py-1 my-2"
+              className="py-1 my-2 profile-image"
             />
             </Grid>
             <Grid item xs={10} sm = {10} md = {7}>

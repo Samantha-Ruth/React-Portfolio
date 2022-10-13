@@ -11,7 +11,7 @@ main {
   /* --tertiary: #bbc4eb; */
   --tertiary: #fdfdfd;
   /* --light: #e1e5f8; */
-  --light: #fdfdfd;
+  --light: #e8e4dc;
   --contrast: #ffec9f;
   --dark: #000000;
   --darker: #111111;
@@ -354,6 +354,9 @@ a {
   justify-content: center;
 }
 
+.profile-image {
+  border-radius: 50px;
+}
 @media screen and (max-width: 900px) { 
   .about_text {
     font-size: 3vw;
