@@ -40,7 +40,7 @@ body {
   letter-spacing: .1em;
   background: var(--light);
   color: var(--darker);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
 
 }
 
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: cursive;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -89,15 +89,17 @@ a {
   color: var(--secondary);
   text-decoration: none;
   font-weight: bold;
+  font-family: cursive;
 }
 
 a:hover {
-    color: blue;
+    color: grey;
   /* text-decoration: underline; */
 }
 
 header {
   background: var(--light);
+  justify-content: right;
 }
 
 header a {
@@ -130,7 +132,7 @@ img {
 }
 
 span[role="img"] {
-  padding: 5vw;
+  /* padding: 5vw; */
   cursor: default;
 }
 
@@ -156,11 +158,22 @@ li {
   list-style: none;
 }
 
-nav a:hover {
-  text-decoration: none;
+ul {
+  padding: 0px;
 }
 
-nav  li {
+nav {
+  margin-left: -10px;
+  border-bottom: 1px solid black;
+  margin-top: -30px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+nav li {
   cursor: pointer;
 }
 
@@ -290,7 +303,7 @@ a {
 	border-radius: 5px;
 	color: var(--primary);
 	font-weight: 600;
-	padding: 2px 4px;
+	padding: 2px;
 	margin-left: -2px;
 	margin-right: -2px;
 	
@@ -304,8 +317,8 @@ a {
   animation: fadeIn 5s;
   font-family: "Dancing Script", cursive;
   flex-wrap: wrap;
-  font-size: 64px;
-  margin: 3vw;
+  /* font-size: 64px; */
+  /* margin: 3vw; */
   justify-content: center;
   transform: translate(0px, 0%);
   text-indent: 22vw;
@@ -335,6 +348,11 @@ a {
   padding: 3vw;
 } 
 
+.profile-image {
+  border-radius: 50px;
+  z-index: -1;
+}
+
 .about {
   padding-top: 2vw;
   padding-bottom: 2vw;
@@ -342,11 +360,13 @@ a {
 }
 
 .about_text {
+  position: relative;
   justify-content: center;
   align-content: center;
   align-items: center;
   font-size: 1.7vw;
   text-align: center;
+  font-family: 'Lora', serif;
 }
 
 .icons {
@@ -367,4 +387,46 @@ a {
   .about_text {
     font-size: 1em;
   }
+}
+
+/* .hero {
+  position: relative;
+} */
+
+.name {
+  position: absolute;
+  top: -25px;
+  left: 50px;
+  font-size: 70px;
+  /* border: 2px solid green; */
+}
+
+/* .job-title {
+  border: 2px solid red;
+  border-bottom: 2px solid black;
+} */
+
+.title1 {
+  position: absolute;
+  top: 70px;
+  left: -17vw;
+  font-size: 64px;
+  /* border: 2px solid red; */
+}
+
+.title2 {
+  position: absolute;
+  top: 128px;
+  /* left: -13vw; */
+  font-size: 64px;
+  /* border: 2px solid red; */
+}
+
+.box {
+  position: relative;
+  height: 200px;
+}
+
+.box2 {
+  position: relative;
 }

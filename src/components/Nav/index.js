@@ -3,14 +3,9 @@ import React from "react";
 function Nav(props) {
 
   return (
-    <header className="navbar flex-row mx-auto">
-      <h2 className="mx-2">
-        <a data-testid="link" href="/">
-          <span className="portfolio-name" role="img">Samantha Haberman</span>
-        </a>
-      </h2>
+    <header className="flex-row">
       <nav>
-        <ul className="flex-row">
+        <ul className="navbar flex-row">
           <li className="mx-2">
             <a
               data-testid="about"
