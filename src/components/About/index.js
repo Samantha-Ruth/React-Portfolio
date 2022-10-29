@@ -40,7 +40,7 @@ const About = () => {
             </Grid>
             <Grid item xs={10} sm={10} md={7}>
               <p className="about_text">
-                Full stack developer, focused on taking difficult aspects of a
+                Focused on taking difficult aspects of a
                 job and making them more streamlined, organized, cleaner, and
                 efficient. Born in the mountains, I have been working in the ski
                 industry most of my career, setting off avalanches before the
