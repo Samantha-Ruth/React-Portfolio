@@ -37,7 +37,7 @@ body {
   /* font-weight: 600; */
   line-height: 1.5;
   font-size: 18px;
-  letter-spacing: .1em;
+  /* letter-spacing: .1em; */
   background: var(--light);
   color: var(--darker);
   font-family: cursive;
@@ -377,17 +377,6 @@ a {
 .profile-image {
   border-radius: 50px;
 }
-@media screen and (max-width: 900px) { 
-  .about_text {
-    font-size: 3vw;
-  }
-}
-
-@media screen and (max-width: 600px) { 
-  .about_text {
-    font-size: 1em;
-  }
-}
 
 /* .hero {
   position: relative;
@@ -429,4 +418,53 @@ a {
 
 .box2 {
   position: relative;
+}
+
+@media screen and (max-width: 900px) { 
+  .about_text {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 615px) { 
+  .about_text {
+    font-size: 1em;
+  }
+  .portfolio-name {
+    font-size: 50px;
+  }
+  .title1 {
+    justify-content: center;
+    font-size: 60px;
+  }
+  .title2 {
+    font-size: 60px;
+  }
+  .profile-image {
+    border-radius: 50px;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .portfolio-name {
+    font-size: 40px;
+  }
+  .name {
+    position: relative;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 309px) {
+  .portfolio-name {
+    font-size: 35px;
+    flex-wrap: wrap;
+  }
+  .name {
+    position: relative;
+    justify-content: center;
+  }
+
 }
