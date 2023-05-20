@@ -74,7 +74,7 @@ function Portfolio() {
             <Link
               display="flex"
               justifyContent="center"
-              href="https://quiet-river-83898.herokuapp.com"
+              href="https://healthcare.fly.dev/"
               target="_blank"
               rel="noreferrer"
             >
@@ -101,7 +101,7 @@ function Portfolio() {
             <Link
               display="flex"
               justifyContent="center"
-              href="https://healthcare.fly.dev"
+              href="https://whispering-escarpment-95024.herokuapp.com"
               target="_blank"
               rel="noreferrer"
             >
