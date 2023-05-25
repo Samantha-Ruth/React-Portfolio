@@ -36,7 +36,7 @@ function Nav(props) {
           <li className="mx-2">
             <a
               data-testid="link"
-              href="https://drive.google.com/file/d/1hxtM3-K6TeC81ZecHOwJQMSLHYrIYLrT/view?usp=sharing">
+              href="https://drive.google.com/file/d/1eTFNm541SA1MkLNFjVtIDa2hE9bLHzYw/view?usp=sharing">
               <span>Resume</span>
             </a>
           </li>
