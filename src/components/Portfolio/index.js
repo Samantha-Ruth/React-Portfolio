@@ -17,7 +17,7 @@ function Portfolio() {
             <Link
               display="flex"
               justifyContent="center"
-              href="https://young-shelf-43673.herokuapp.com/"
+              href="https://supper-scraps.fly.dev"
               target="_blank"
               rel="noreferrer"
             >
