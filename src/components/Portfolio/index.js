@@ -26,7 +26,7 @@ function Portfolio() {
             <IconButton
               size="large"
               aria-label="delete"
-              href="https://github.com/Samantha-Ruth/supper-snacks"
+              href="https://github.com/Samantha-Ruth/supper-scraps"
               target="_blank"
               rel="noreferrer"
             >
