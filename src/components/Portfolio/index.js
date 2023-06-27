@@ -92,8 +92,7 @@ function Portfolio() {
           </Grid>
           <img src={healthcare_Hero} className="px-1 mx-2" alt="profile" />
           <Grid display="flex" justifyContent="center" className="my-1">
-            Web application to help patients compare the cost of a service
-            across different medical providers.
+            Compare the cost of a service across different medical providers.
           </Grid>
         </Grid>
         <Grid xs={10} md={5} className="project1">

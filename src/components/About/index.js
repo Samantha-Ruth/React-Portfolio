@@ -55,14 +55,14 @@ const About = () => {
             <Grid container justifyContent="center" style={{ width: "100%" }}>
               <div className="icons">
                 <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                   alt="github icon"
                   style={{ width: "5%", padding: "0.5%" }}
                   className="img-icon"
                 />
                 <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
-                  alt="html5 icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  alt="git icon"
                   style={{ width: "5%", padding: "0.5%" }}
                   className="img-icon"
                 />
@@ -73,8 +73,20 @@ const About = () => {
                   className="img-icon"
                 />
                 <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+                  alt="html5 icon"
+                  style={{ width: "5%", padding: "0.5%" }}
+                  className="img-icon"
+                />
+                <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                   alt="javascript icon"
+                  style={{ width: "5%", padding: "0.5%" }}
+                  className="img-icon"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  alt="python icon"
                   style={{ width: "5%", padding: "0.5%" }}
                   className="img-icon"
                 />
@@ -93,6 +105,12 @@ const About = () => {
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                   alt="nodejs icon"
+                  style={{ width: "6%", padding: "0.5%" }}
+                  className="img-icon"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+                  alt="flask icon"
                   style={{ width: "6%", padding: "0.5%" }}
                   className="img-icon"
                 />
